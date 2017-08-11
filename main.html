@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="store">
+<head>
+</head>
+<body ng-controller="storecontroller as store">
+
+<!--products container -- >
+ 
+<div ng-show="!store.product.slodOut">
+  <h1>{{ store.product.name}}</h1>
+  <h1>${{store.product.price}}</h2>
+  <p1>{{store.product.discription }}</p1>
+  <button ng-show="stor.product.Canpurchase"> </button>
+  
+
+</div>
+
+
+</body>
+
+<script src="angular.min.js"></script>
+<script src="Script.js"></script>
+
+
+</html>
